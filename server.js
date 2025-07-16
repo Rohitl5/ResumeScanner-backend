@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 //  these are middle wares
 // app.use(cors());
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://your-frontend.vercel.app'],
+  origin: ['http://localhost:3000', 'https://resume-scanner-frontend-iota.vercel.app/'],
   credentials: true
 }));
 app.use(express.json());
